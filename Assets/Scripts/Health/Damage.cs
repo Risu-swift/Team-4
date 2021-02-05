@@ -10,45 +10,28 @@ namespace Health
       /// <summary>
       /// Example implementation of Damage Script 
       /// </summary>
-      [SerializeField] public int damageAmt;
+      public int damageAmt;
 
-      [SerializeField] private float checkSphereRadius = 1f;
-      [SerializeField] private float checkFrequency = 2f;
-      [SerializeField] private LayerMask CheckLayer;
+      public LayerMask layerMask;
+     
       private HealthController _healthController;
-
+      
       
 
-      private void FixedUpdate()
+      private void OnTriggerEnter(Collider other)
       {
-         StartCoroutine(GiveDamage());
-        
-      }
-
-      public IEnumerator GiveDamage()
-      {
-         Collider[] colliders = Physics.OverlapSphere(transform.position, checkSphereRadius,CheckLayer);
-         foreach (var index in colliders)
+         _healthController = other.gameObject.GetComponent<HealthController>();
+         if ( _healthController != null)
          {
-            if (index.transform != transform)
-            {
-               _healthController = index.gameObject.GetComponentInParent<HealthController>();
-               
-               if (_healthController != null)
-               {
-                  _healthController.Damage(damageAmt);
-                  Debug.Log(gameObject.name + " Does " + damageAmt + " To " + index.name);
-               }
-               
-            }
+            _healthController.Damage(damageAmt);
+            Debug.Log(this.gameObject + " Does " + damageAmt + " to " + other.gameObject.name);
          }
-         yield return new WaitForSeconds(checkFrequency);
-      }
-
-      private void OnDrawGizmos()
-      {
-         Gizmos.DrawWireSphere(transform.position,checkSphereRadius);
-         
+         else
+         {
+            Debug.LogError(other.gameObject + " Doesn't contain health Controller");
+         }
+        
+            
       }
    }
 }

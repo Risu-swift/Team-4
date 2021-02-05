@@ -94,6 +94,14 @@
             </e>
           </e>
         </e>
+        <e p="Catartsys" t="Include">
+          <e p="LargeWater_URP" t="Include">
+            <e p="Catartsys_LargeWater_URP_Doc.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="LargeWater_Grids_instanciator.cs" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Joystick Pack" t="Include">
           <e p="Examples" t="Include">
             <e p="JoystickPlayerExample.cs" t="Include" />
@@ -123,16 +131,30 @@
           <e p="PlayerManager.cs" t="Include" />
           <e p="PlayerSettings.cs" t="Include" />
         </e>
+        <e p="SceneRestart.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="Camera" t="Include">
             <e p="CameraController.cs" t="Include" />
             <e p="CameraSettings.cs" t="Include" />
           </e>
+          <e p="CameraOpacity.cs" t="Include" />
+          <e p="CutSceneSystem" t="Include">
+            <e p="CutScene.cs" t="Include" />
+            <e p="CutSceneManager.cs" t="Include" />
+            <e p="CutSceneTrigger.cs" t="Include" />
+          </e>
+          <e p="DebugCommandBase.cs" t="Include" />
+          <e p="DebugController.cs" t="Include" />
           <e p="Enemy" t="Include">
+            <e p="Enemy.cs" t="Include" />
             <e p="EnemyBehaviour.cs" t="Include" />
+            <e p="EnemyPrefab.cs" t="Include" />
+            <e p="EnemySpawnTrigger.cs" t="Include" />
             <e p="Enemywander.cs" t="Include" />
           </e>
+          <e p="EnemySpawner.cs" t="Include" />
           <e p="FaceCamera.cs" t="Include" />
+          <e p="GameEvents.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="Health" t="Include">
             <e p="Damage.cs" t="Include" />
@@ -140,16 +162,62 @@
             <e p="HealthBar.cs" t="Include" />
             <e p="HealthController.cs" t="Include" />
           </e>
-          <e p="Inventory" t="Include">
-            <e p="Armor.cs" t="Include" />
+          <e p="ItemSystem" t="Include">
+            <e p="Consumable.cs" t="Include" />
+            <e p="Enchantments" t="Include">
+              <e p="Enchantment.cs" t="Include" />
+            </e>
             <e p="Inventory.cs" t="Include" />
             <e p="Item.cs" t="Include" />
             <e p="ItemManager.cs" t="Include" />
-            <e p="Weapon.cs" t="Include" />
+            <e p="ItemPrefabs" t="Include">
+              <e p="ArmorPrefab.cs" t="Include" />
+              <e p="ItemPrefab.cs" t="Include" />
+              <e p="WeaponPrefab.cs" t="Include" />
+            </e>
+            <e p="Items" t="Include">
+              <e p="Armor.cs" t="Include" />
+              <e p="Weapon.cs" t="Include" />
+            </e>
+          </e>
+          <e p="LevelSystem" t="Include">
+            <e p="Exp.cs" t="Include" />
+            <e p="LevelSystem.cs" t="Include" />
+          </e>
+          <e p="Loot" t="Include">
+            <e p="LootPrefab.cs" t="Include" />
+            <e p="LootTable.cs" t="Include" />
           </e>
           <e p="LootDrop.cs" t="Include" />
+          <e p="Menu" t="Include">
+            <e p="MenuItemHandler.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Player.cs" t="Include" />
+          </e>
+          <e p="PlayerAnimationHandler.cs" t="Include" />
+          <e p="ProgressBar.cs" t="Include" />
+          <e p="SaveSystem" t="Include">
+            <e p="ArmorData.cs" t="Include" />
+            <e p="EnchantmentData.cs" t="Include" />
+            <e p="ItemData.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="SaveData.cs" t="Include" />
+            <e p="WeaponData.cs" t="Include" />
+          </e>
+          <e p="SceneSystem" t="Include">
+            <e p="SceneData.cs" t="Include" />
+          </e>
+          <e p="Serialzation" t="Include">
+            <e p="SerializationManager.cs" t="Include" />
+          </e>
           <e p="SimpleCameraController.cs" t="Include" />
           <e p="SpinObj.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="GameplayUIManager.cs" t="Include" />
+            <e p="ItemMenuController.cs" t="Include" />
+            <e p="PlayerStatUI.cs" t="Include" />
+          </e>
           <e p="WeaponHandler.cs" t="Include" />
         </e>
         <e p="Supercyan Character Pack Free Sample" t="Include">

@@ -25,13 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7511705-e60b-410f-a804-9e65afa847b6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Team-4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Actions/System/Vector3/GetRandomInArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Actions/System/Vector3/GetRandomInArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/QuickStartGuide/InitialScene/InitialScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/QuickStartGuide/InitialScene/InitialScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/EnemyTest.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/EnemyTest.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Example Behaviours/wander.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Example Behaviours/wander.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBullet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneBullet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/DoneScene/DoneScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/Resources/Behaviors/DoneEnemyBehavior.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/BehaviorBricks/Samples/ProgrammersQuickStartGuide/Done/Resources/Behaviors/DoneEnemyBehavior.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Enemys/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Enemys/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Items/Item prefabs/Weapons/Katana.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Items/Item prefabs/Weapons/Katana.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health/Damage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Health/Damage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.polybrush/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +76,7 @@
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="do_not_show_solution_notification" value="true" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
@@ -108,6 +115,9 @@
       <workItem from="1601734172711" duration="32000" />
       <workItem from="1602000827525" duration="931000" />
       <workItem from="1602059768410" duration="324000" />
+      <workItem from="1603356286265" duration="2898000" />
+      <workItem from="1606126500056" duration="1795000" />
+      <workItem from="1612458102045" duration="809000" />
     </task>
     <servers />
   </component>

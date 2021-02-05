@@ -193,7 +193,6 @@ GameObject:
   - component: {fileID: 91715069199615520}
   - component: {fileID: 91715069199615521}
   - component: {fileID: 91715069199615518}
-  - component: {fileID: 91715069199615519}
   - component: {fileID: -6971149247016106419}
   - component: {fileID: 7227764315779773018}
   m_Layer: 9
@@ -326,7 +325,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 91715069199615516}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 422fb6956201c7944ae2113a1a53b0b8, type: 3}
   m_Name: 
@@ -389,24 +388,6 @@ MonoBehaviour:
     quaternionParams: []
     quaternionParamsNames: []
     quaternionParamsLostDefaultValue: 
---- !u!114 &91715069199615519
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91715069199615516}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55048b20443c1d448a7fcbad0aa72ad9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damageAmt: 10
-  checkSphereRadius: 1
-  checkFrequency: 2
-  CheckLayer:
-    serializedVersion: 2
-    m_Bits: 256
 --- !u!114 &-6971149247016106419
 MonoBehaviour:
   m_ObjectHideFlags: 0
